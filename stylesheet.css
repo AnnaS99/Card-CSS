@@ -8,7 +8,7 @@ li {
 }
 
 .card__picture {
-  width: 10rem;
+  width: clamp(100px, 50%, 200px);
 }
 
 .card__text {
