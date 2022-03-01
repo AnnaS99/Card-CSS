@@ -12,19 +12,19 @@ li {
 }
 
 .card__text {
-  margin-left: 4rem;
+  margin-left: 3rem;
   width: clamp(200px, 50%, 300px);
 }
 
 
 .card__title {
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
 
 .card__tags {
   display: flex;
-  justify-content: space-around;
-  width: clamp(200px, 50%, 300px);
+  justify-content:space-evenly;
+  width: clamp(100px, 50%, 200px);
 }
 
 .tags__item {
