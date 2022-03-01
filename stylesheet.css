@@ -1,0 +1,35 @@
+
+li {
+  list-style: none
+}
+
+.card {
+  display: flex;
+}
+
+.card__picture {
+  width: 10rem;
+}
+
+.card__text {
+  margin-left: 4rem;
+  width: clamp(200px, 50%, 300px);
+}
+
+
+.card__title {
+  margin-left: 4rem;
+}
+
+.card__tags {
+  display: flex;
+  justify-content: space-around;
+  width: clamp(200px, 50%, 300px);
+}
+
+.tags__item {
+  background-color: rgba(81, 28, 125, 0.336);
+  border-radius: 3rem;
+  padding: 0.3rem;
+
+}
